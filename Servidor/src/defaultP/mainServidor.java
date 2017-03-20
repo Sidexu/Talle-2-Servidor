@@ -43,7 +43,7 @@ public class mainServidor {
 		}
 		catch (IOException e)
 		{
-			JOptionPane.showMessageDialog(null, "Error de archivo", "Duck Boat Server", 0);
+			JOptionPane.showMessageDialog(null, "Error de archivo de configuración", "Duck Boat Server", 0);
 		}
 		
 	}
