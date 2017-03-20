@@ -1,6 +1,10 @@
 package Logica;
 
 public class Especial extends Boleto {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private float descuento;
 
 	public Especial() {

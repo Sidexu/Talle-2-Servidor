@@ -4,7 +4,7 @@ public class Monitor1 {
 	private int lectores;
 	private  boolean alguien_escribe;
 	
-	public void Monitor1(){
+	public Monitor1(){
 		lectores = 0;
 		alguien_escribe = false;
 	}

@@ -10,6 +10,10 @@ import java.util.TreeMap;
 import defaultP.Hora;
 
 public class Buses implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private TreeMap<String,Bus> TM;
 	
 	public Buses(){
@@ -74,7 +78,7 @@ public class Buses implements Serializable {
 			if(mat == "" || capacidad){ //obtener bus disponible entre dos horas
 				msg="Atención! No hay bus disponible en ese rango horario.";
 			}else{ //obtener bus para reasignar
-				msg="Atención! No hay bus disponible en ese rango horario ni con la capacidad necesaria.";
+				msg="Atención! No hay ningun bus disponible en ese rango horario con la capacidad necesaria.";
 			}
 			throw new ExcepcionBus(msg);
 		}else{

@@ -4,10 +4,13 @@ import Logica.Excursion;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Objects;
 import java.util.TreeMap;
 
 public class Excursiones implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private  TreeMap<String,Excursion> arbol;
 	
 	public Excursiones(){

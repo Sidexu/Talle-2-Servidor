@@ -6,10 +6,12 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Objects;
-
 
 public class Boletos implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private LinkedList<Boleto> LL;
 	
 	public Boletos(){

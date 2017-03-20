@@ -6,6 +6,10 @@ import Logica.Buses;
 import Logica.Excursiones;
 
 public class VOPersistencia implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Buses buses;
 	private Excursiones excursiones;
 	

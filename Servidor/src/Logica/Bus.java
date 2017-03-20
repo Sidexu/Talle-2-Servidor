@@ -3,6 +3,10 @@ import Logica.Excursiones;
 import java.io.Serializable;
 
 public class Bus implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String matricula;
 	private String marca;
 	private int capacidad;
